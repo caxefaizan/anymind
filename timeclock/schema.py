@@ -122,24 +122,6 @@ class ClockOut(graphene.Mutation):
                 return Exception('User not Clocked In')
         else:
             raise Exception("Authentication credentials were not provided")
-# class CreateUser(graphene.Mutation):
-
-#     class Arguments:
-#         username = graphene.String(required=True)
-#         email = graphene.String(required=True)
-#         password = graphene.String(required=True)
-#         id = graphene.ID()
-
-#     user = graphene.Field(UserType)
-
-#     @classmethod
-#     def mutate(cls, root, info, username, email, password):
-#         user = MyUser()
-#         user.username = username
-#         user.email= email
-#         user.password = password
-#         user.save()
-#         return CreateUser(user=user)
 
 class Mutation(graphene.ObjectType):
     createUser = mutations.Register.Field('createUser')

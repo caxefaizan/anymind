@@ -52,6 +52,7 @@ mutation{
 # Activate account 
 Copy the Token as displayed on the terminal. This is to verify a User Account.
 `http://127.0.0.1:8000/activate/YOUR_TOKEN`
+
 ![alt text](./images/VerifyToken.png)
 
 ```
@@ -87,11 +88,13 @@ mutation{
 	"TOKEN": "YOUR_JWT_TOKEN"
 }
 ```
+
 ![alt text](./images/Insomnia.png)
 * Create the following queries by setting body as `GraphQL Query`
 * In the Header, set 
     * `Content-Type`  : `application/json`
     * `Authorization` : `JWT _.TOKEN`
+
 
 ![alt text](./images/Queries.png)
 

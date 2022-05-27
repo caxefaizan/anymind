@@ -125,7 +125,6 @@ class ClockOut(graphene.Mutation):
 
 class Mutation(graphene.ObjectType):
     createUser = mutations.Register.Field('createUser')
-    # createUser = CreateUser.Field()
     verify_account = mutations.VerifyAccount.Field()
     obtainToken = mutations.ObtainJSONWebToken.Field()
     clockIn = ClockIn.Field()

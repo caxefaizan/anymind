@@ -153,3 +153,5 @@ query{
   clockedHours
 }
 ```
+
+![alt text](./images/ClockedHours.png)

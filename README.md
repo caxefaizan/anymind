@@ -93,6 +93,8 @@ mutation{
     * `Content-Type`  : `application/json`
     * `Authorization` : `JWT _.TOKEN`
 
+![alt text](./images/Queries.png)
+
 # Me
 
 ```

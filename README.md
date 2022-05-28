@@ -164,3 +164,9 @@ query{
 ```
 
 ![alt text](./images/ClockedHours.png)
+
+# Django Admin
+
+You can also add Data for testing using the Django admin.
+Go to `http://127.0.0.1:8000/admin/` and login using your superuser credentials
+![alt text](./images/Djangoadmin.png)

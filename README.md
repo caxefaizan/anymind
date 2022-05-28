@@ -1,6 +1,6 @@
-This Project is a demonstration of Using GraphQL with Django for the Time Clocking of Uers.
+**This Project is a demonstration of Using GraphQL with Django for the Time Clocking of Users.
 A User can Clock In/Out, check total clocked Hours in the current Day/Week/Month.
-All activites require a user to be authenticated using JWT.
+All activites require a user to be authenticated using JWT.**
 
 # Setup
 

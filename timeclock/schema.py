@@ -117,7 +117,10 @@ class ClockOut(graphene.Mutation):
                     # clock out within 8 hour window?
                     # yes? -> calculate total hours
                     # no? -> notify to resolve irregularity
-                    return Exception('Irregularity in SignIn/SignOut')
+                    # Deactivate existing Clock 
+                    user.clock_active = False
+                    user.save()
+                    return Exception('Irregularity in SignIn/SignOut. Please Sign In Again and Raise a Resolve Request on the HR Portal.')
             else:
                 return Exception('User not Clocked In')
         else:

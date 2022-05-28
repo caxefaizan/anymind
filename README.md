@@ -3,8 +3,10 @@ A User can Clock In/Out, check total clocked Hours in the current Day/Week/Month
 All activites require a user to be authenticated using JWT.**
 
 # Setup
+1a. Install Insomnia Client using `https://insomnia.rest/`
+We will use it to make queries to our GraphQL endpoint.
 
-Install Insomnia Client using `https://insomnia.rest/`
+1b. Open up a Terminal and follow the commands
 ```
 git clone https://github.com/caxefaizan/anymind.git
 cd anymind

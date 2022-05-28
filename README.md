@@ -74,8 +74,6 @@ mutation{
 
 # Obtain JWT Token
 
-Copy the Token in the Response. we will use it for following query authentication.
-
 ```
 mutation{
   obtainToken(username:"user123",
@@ -84,6 +82,8 @@ mutation{
   }
 }
 ```
+
+Copy the Token in the Response. we will use it for following query authentication.
 
 # Use Insomnia API CLient to test the API 
 

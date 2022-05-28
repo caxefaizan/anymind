@@ -56,13 +56,13 @@ mutation{
 }
 ```
 
-Copy the Token as displayed on the terminal. This is to verify a User Account.
+Copy the Activation Token as displayed on the terminal. This is to verify a User Account.
 
 ![alt text](./images/VerifyToken.png)
 
 # Activate account 
 
-Use your previously copied Token from ` http://127.0.0.1:8000/activate/YOUR_TOKEN` in the Query
+Use your previously copied **Activation Token** from ` http://127.0.0.1:8000/activate/YOUR_TOKEN` in the Query
 
 ```
 mutation{
@@ -86,7 +86,7 @@ mutation{
 }
 ```
 
-Copy the Token in the Response. we will use it for following query authentication.
+Copy the **JWT Token** in the Response. we will use it for the following query authentication.
 
 # Use Insomnia API CLient to test the API 
 

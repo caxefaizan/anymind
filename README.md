@@ -55,11 +55,13 @@ mutation{
   }
 }
 ```
-# Activate account 
-Copy the Token as displayed on the terminal. This is to verify a User Account.
-`http://127.0.0.1:8000/activate/YOUR_TOKEN`
 
+Copy the Token as displayed on the terminal. This is to verify a User Account.
 ![alt text](./images/VerifyToken.png)
+
+# Activate account 
+
+Use your previously copied Token from ` http://127.0.0.1:8000/activate/YOUR_TOKEN` in the Query
 
 ```
 mutation{

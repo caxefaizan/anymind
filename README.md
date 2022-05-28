@@ -57,6 +57,7 @@ mutation{
 ```
 
 Copy the Token as displayed on the terminal. This is to verify a User Account.
+
 ![alt text](./images/VerifyToken.png)
 
 # Activate account 
